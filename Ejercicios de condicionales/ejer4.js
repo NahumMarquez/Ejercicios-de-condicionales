@@ -6,7 +6,10 @@ if (numero > 0) {
 else if (numero < 0) {
         console.log("El número es negativo.");
     } 
-else {
+else if (numero ===0) {
         console.log("El número es cero.");
+}
+else {
+    console.log("Por favor, ingresa una valor válido.");
     }
 
