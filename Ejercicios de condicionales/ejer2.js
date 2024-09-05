@@ -11,5 +11,6 @@
         console.log ("grado D");
     } else if (calificacion >= 0 && calificacion <= 59) {
         console.log ("grado F");
-    } 
+    }  else {(isNaN(calificacion) || calificacion < 0) }
+        console.log("Por favor, ingresa una calificacion válida.");
 
